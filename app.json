@@ -1,7 +1,7 @@
 {
-  "name": "DragonBot-Pro",
-  "description": "Tнє Smoothest And Fastest Bot Made By LEGENDX-Pro (@LEGENDHACKER_IN). Made with Love And By Python Language With Hardwork... ❤ ",
-  "logo": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+  "name": "Tha SaTayBoT Of User",
+  "description": "Tнє Smoothest And Fastest Bot Made By SATYAX-Pro (@ITS-LEGENDBOY). Made with Love And By Python Language With Hardwork... ❤ ",
+  "logo": "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,8 +10,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGEND-LX/DRAGONPRO-BOT/",
-  "website": "https://github.com/LEGEND-LX/DRAGONPRO-BOT/",
+  "repository": "https://github.com/SATYA-OP/SATYABOT/",
+  "website": "https://github.com/SATYA-OP/SATYABOT/",
   "success_url": "https://t.me/DragonPro_Userbot",
   "env": {
     "ENV": {
@@ -20,7 +20,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is Pro-Person",
-      "value": "『💫- Legendx-Pro -💫 』",
+      "value": "『💫- SaTyax-Pro -💫 』",
       "required": false
     },
     "ALIVE_MSG": {
@@ -28,28 +28,8 @@
       "value": "",
       "required": false
     },
-    "ABUSE": {
-      "description": " Set ON or OFF. It Will Activate Abuse Plugin According To Ur Value Fill",
-      "value": "ON",
-      "required" :true
-    },
-    "EXTRA_PLUGIN": {
-      "description": "Set ON or OFF. It Will Activate Extra Plugin AccordingTo Ur Value Fill ",
-      "value": "ON",
-      "required" :true
-    },
-    "SPAM": {
-      "description": "Set ON or OFF. It Will Activate Spam Assistant According To Ur Value Fill",
-      "value": "ON",
-      "required" :true
-    },
-    "ASSISTANT": {
-      "description": "Set ON or OFF. It Will Activate Ur Assistant From Bot Father Start And See",
-      "value": "ON",
-      "required" :true
-    },
     "YOUR_GROUP": {
-      "description": "Set Your Group Username. By Default It Is (@LegendBot_Pros)",
+      "description": "Set Your Group Username. By Default It Is (@SATYAX)",
       "value": "@DragonPro_Userbot",
       "required": false
     },
@@ -60,22 +40,22 @@
     },
     "AWAKE_PIC": {
       "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
-      "value": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+      "value": "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg",
       "required": false
     },
     "HELP_PIC": {
       "description": "Put here any telegraph media link for OP pic in .op command.",
-      "value": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+      "value": "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg",
       "required": false
     },
     "PING_PIC": {
       "description": "Put here any telegraph media link for PING pic in .ping command.",
-      "value": "https://te.legra.ph/file/c09065bcec846867920eb.jpg",
+      "value": "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg",
       "required": false
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive.",
-      "value": "https://te.legra.ph/file/c09065bcec846867920eb.jpg",
+      "value": "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg",
       "required": false
     },
     "ALIVE_EMOJI": {
@@ -90,7 +70,7 @@
     },
     "PM_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+      "value": "https://te.legra.ph/file/2bc143a15d95845b52e17.jpg",
       "required": false
     },
     "PM_MSG": {
@@ -138,11 +118,7 @@
     "DRAGON_STRING": {
       "description": "Get this value by running https://replit.com/@LEGEND-LX/DRAGONBOT#main.py ",
       "value": ""
-    },
-    "RISHABH_AI": {
-      "description": "Fill your DRAGON_STRING AND YOUR 2 STEP PASSWORD YOUR 2 STEP OF THEN FILL 0",
-      "value": "GRAGON_STRING/2-STEP PASSWORD"
-      "required": false 
+      "required":true
       },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
