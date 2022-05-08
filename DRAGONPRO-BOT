@@ -26,18 +26,20 @@ _get_repolink () {
 _dragon_bot () {
     local zippath
     zippath="DRAGON.zip"
-    echo "  🔰 Downloading Pro DragonBot Source Code... 🔰"
+    echo "  🔞 Downloading Pro SaTyaBoT Source Code... 🔞"
     wget -q $(_get_repolink) -O "$zippath"
-    echo "  📍Unpacking Data...📍"
+    echo "  💫📍Unpacking Data...📍💫"
+    echo " Legend-SaTyaBoT Supporting..."
     DRAGONPATH=$(zipinfo -1 "$zippath" | grep -v "/.");
     unzip -qq "$zippath"
-    echo " 🏅 Download Complete Now Installing 🏅"
-    echo "  ✨ INSTALLING PRO DRAGONBOT ✨"
+    echo " 💥 Download Complete Now Installing 💥"
+    echo "  🖕🏻 INSTALLING THA SATYABOT 🖕🏻"
     rm -rf "$zippath"
     sleep 5
     cd $DRAGONPATH
-    echo "    ⚜️Starting Pro Dragonẞøt⚜️     "
-    echo " ♥️ NOW WAIT 3 MIN INSTALLING ALL PLUGIN ♥️"
+    echo "    🪡Starting Tha SaTyaẞøT🪡     "
+    echo " ♥️ NOW WAIT 5 MIN INSTALLING ALL PLUGIN ♥️"
+    echo "😈 Uploading. Bots On Telegram Clintes..😈"
 
     python3 ../setup/updater.py ../requirements.txt requirements.txt
     python3 -m userbot
