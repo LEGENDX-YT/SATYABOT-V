@@ -118,7 +118,7 @@
     "DRAGON_STRING": {
       "description": "Get this value by running https://replit.com/@LEGEND-LX/DRAGONBOT#main.py ",
       "value": ""
-      "required":true
+      "required": true
       },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
