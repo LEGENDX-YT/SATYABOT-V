@@ -1,7 +1,7 @@
 {
-  "name": "DragonBot-Pro",
-  "description": "Tнє Smoothest And Fastest Bot Made By LEGENDX-Pro (@LEGENDHACKER_IN). Made with Love And By Python Language With Hardwork... ❤ ",
-  "logo": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+  "name": "Pro-LegendBot",
+  "description": "Tнє Smoothest And Fastest Bot Made By Pro Legend (@Pro_UserBoy). Made with Love And By Python Language With Hardwork... ❤ ",
+  "logo": "https://te.legra.ph/file/d17467283e73c884834a5.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -10,9 +10,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/LEGEND-LX/DRAGONPRO-BOT/",
-  "website": "https://github.com/LEGEND-LX/DRAGONPRO-BOT/",
-  "success_url": "https://t.me/DragonPro_Userbot",
+  "repository": "https://github.com/PROBOY-OP/PRO-LEGENDBOT/",
+  "website": "https://github.com/PROBOY-OP/PRO-LEGENDBOT/",
+  "success_url": "https://t.me/Pro_LegendBots",
   "env": {
     "ENV": {
       "description": "Set this to ANYTHING will enable heroku.(Don't Need To Change It)",
@@ -20,7 +20,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name. By default it is Pro-Person",
-      "value": "『💫- Legendx-Pro -💫 』",
+      "value": "『⚡- Lêɠêɳ̃dẞογ -⚡ 』",
       "required": false
     },
     "ALIVE_MSG": {
@@ -30,67 +30,72 @@
     },
     "ABUSE": {
       "description": " Set ON or OFF. It Will Activate Abuse Plugin According To Ur Value Fill",
-      "value": "ON",
+      "value": "",
       "required" :true
     },
     "EXTRA_PLUGIN": {
       "description": "Set ON or OFF. It Will Activate Extra Plugin AccordingTo Ur Value Fill ",
-      "value": "ON",
+      "value": "",
       "required" :true
     },
     "SPAM": {
       "description": "Set ON or OFF. It Will Activate Spam Assistant According To Ur Value Fill",
-      "value": "ON",
+      "value": "",
       "required" :true
     },
     "ASSISTANT": {
       "description": "Set ON or OFF. It Will Activate Ur Assistant From Bot Father Start And See",
-      "value": "ON",
+      "value": "",
       "required" :true
     },
     "YOUR_GROUP": {
       "description": "Set Your Group Username. By Default It Is (@LegendBot_Pros)",
-      "value": "@DragonPro_Userbot",
+      "value": "@LegendBot_Pros",
       "required": false
     },
     "YOUR_CHANNEL": {
       "description": "Set Your Channel Username",
-      "value": "@ABOUT_PROLEGENDX",
+      "value": "@Pro_LegendBots",
+      "required": false
+    },
+    "BOY_OR_GIRL": {
+      "description": "Set Boy Or Girl. It Will Set Boy Like Boy Bot Else Set Like Girl Bot And Its Design",
+      "value": "Boy",
       "required": false
     },
     "AWAKE_PIC": {
       "description": "Put here any telegraph media link for awake pic in .awake Or .bot command.",
-      "value": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+      "value": "",
       "required": false
     },
     "HELP_PIC": {
       "description": "Put here any telegraph media link for OP pic in .op command.",
-      "value": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+      "value": "",
       "required": false
     },
     "PING_PIC": {
       "description": "Put here any telegraph media link for PING pic in .ping command.",
-      "value": "https://te.legra.ph/file/c09065bcec846867920eb.jpg",
+      "value": "",
       "required": false
     },
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive.",
-      "value": "https://te.legra.ph/file/c09065bcec846867920eb.jpg",
+      "value": "",
       "required": false
     },
     "ALIVE_EMOJI": {
       "description": "Put here any emoji. Which Will be Show When U Do .alive.",
-      "value": "💥☄️",
+      "value": "",
       "required": false
     },
     "BIO_MSG": {
       "description": "Put Your Telegram Bio Here Required For Auto Bio.",
-      "value": "I Am Pro Person Because I am User Of Pro DragonBot 🇮🇳.",
+      "value": "I Am Pro Person Because I am User Of Pro LegendBot 🇮🇳.",
       "required": true
     },
     "PM_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
-      "value": "https://te.legra.ph/file/fef2d78da4110fbf98a2e.jpg",
+      "value": "",
       "required": false
     },
     "PM_MSG": {
@@ -124,7 +129,7 @@
     },
     "HANDLER": {
       "description": "U can Change Ur command Handler By Default it is (.)",
-      "value": ".",
+      "value": "",
       "required": false 
       },
     "API_HASH": {
@@ -135,15 +140,10 @@
       "description": "Paste Group Id Which U Get From @missrose_bot",
       "value": ""
     }, 
-    "DRAGON_STRING": {
-      "description": "Get this value by running https://replit.com/@LEGEND-LX/DRAGONBOT#main.py ",
+    "PRO_STRING": {
+      "description": "Get this value by running https://replit.com/@PROBOY-OP/PRO-LEGENDBOT#main.py ",
       "value": ""
     },
-    "RISHABH_AI": {
-      "description": "Fill your DRAGON_STRING AND YOUR 2 STEP PASSWORD YOUR 2 STEP OF THEN FILL 0",
-      "value": "GRAGON_STRING/2-STEP PASSWORD"
-      "required": false 
-      },
     "HEROKU_API_KEY": {
       "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API.Required for updater to work.",
       "value": "",
@@ -174,12 +174,12 @@
     },
     "HELP_EMOJI1": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "💥🌪",
+      "value": "",
       "required": false
     },
     "HELP_EMOJI2": {
       "description": "Set The emojies You Want to Add In Help Command!!",
-      "value": "🌪💥",
+      "value": "",
       "required": false
     },
     "PM_DATA": {
